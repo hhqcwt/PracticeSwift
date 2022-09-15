@@ -14,6 +14,7 @@
 		8038ADFF28C7A9DA0091C34F /* PracticeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038ADFE28C7A9DA0091C34F /* PracticeSwiftTests.swift */; };
 		8038AE0928C7A9DA0091C34F /* PracticeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038AE0828C7A9DA0091C34F /* PracticeSwiftUITests.swift */; };
 		8038AE0B28C7A9DA0091C34F /* PracticeSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038AE0A28C7A9DA0091C34F /* PracticeSwiftUITestsLaunchTests.swift */; };
+		80BACFDF28C916360037C1C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BACFDE28C916360037C1C5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8038AE0428C7A9DA0091C34F /* PracticeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8038AE0828C7A9DA0091C34F /* PracticeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSwiftUITests.swift; sourceTree = "<group>"; };
 		8038AE0A28C7A9DA0091C34F /* PracticeSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80BACFDE28C916360037C1C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8038ADED28C7A9D90091C34F /* PracticeSwiftApp.swift */,
 				8038ADEF28C7A9D90091C34F /* ContentView.swift */,
+				80BACFDE28C916360037C1C5 /* main.swift */,
 				8038ADF128C7A9DA0091C34F /* Assets.xcassets */,
 				8038ADF328C7A9DA0091C34F /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				8038ADF028C7A9D90091C34F /* ContentView.swift in Sources */,
 				8038ADEE28C7A9D90091C34F /* PracticeSwiftApp.swift in Sources */,
+				80BACFDF28C916360037C1C5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

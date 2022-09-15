@@ -20,9 +20,3 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-var name: String="yagom"
-var age: Int=100
-var job="iOS Programmer"
-let height=181.5
-
-
