@@ -45,5 +45,23 @@ print(introduce)
 
 print("name의 글자 수: \(name.count)")
 print("introduce가 비어있습니가?: \(introduce.isEmpty)")
+//----------------------------Any, AnyObject, nil표현 정리
+//Any-Swift의 모든 타입을 지칭하는 키워드
+//AnyObject-모든 클래스 타입을 지칭하는 프로토콜
+//nil-없음을 의미하는 키워드 비슷한 표현으로는 null, NULL, Null이 있다
+
+var someAny: Any=100
+someAny="어떤 타입도 수용 가능합니다"
+someAny=123.12
+
+class SomeClass{}
+var someAnyObject: AnyObject = SomeClass()
+
+//----------------------------컬렉션 타입 정리(Array, Dictionary, Set
+//Array 순서가 있는 리스트 컬렉션
+//Dictionary 키와 값의 쌍으로 이루어진 컬렉션
+//Set 순서가 없고, 멤버가 유일한 컬렉션
+
+var integers: Array<Int>=Array<Int>()
 
 
