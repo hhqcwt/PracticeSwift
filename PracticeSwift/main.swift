@@ -63,5 +63,44 @@ var someAnyObject: AnyObject = SomeClass()
 //Set 순서가 없고, 멤버가 유일한 컬렉션
 
 var integers: Array<Int>=Array<Int>()
+/*
+class
+    1. 전통적인 OOP관점에서의 클래스
+    2. 단일상속
+    3. (인스턴스/타입) 메서드
+    4. (인스턴스/타입) 프로퍼티
+    5. 참조타입
+    6. Apple프레임워크의 대부분의 큰 뼈대는 모두 클래스로 구성
+ 
+ Struct
+    1. C언어 등의 구조체보다 다양한 기능
+    2. 상속불가
+    3. (인스턴스/타입) 메서드
+    4. (인스턴스/타입) 프로퍼티
+    5. 값타입
+    6. Swift의 대부분의 큰 뼈대는 모두 구조체로 구성
+ 
+ Enum
+    1. 다른 언어의 열거형과는 많이 다른 존재
+    2. 상속불가
+    3.3. (인스턴스/타입) 메서드
+ 4. (인스턴스/타입) 프로퍼티
+    4.
+    5. 값타입
+*/
+struct SomeStruct{
+    var someProperty: String="Property"
+}
+
+var someStructInstance: SomeStruct=SomeStruct()
+
+func someFunction(structInstance: SomeStruct){
+    var localVar: SomeStruct=structInstance
+    localVar.someProperty="ABC"
+}
+
+someFunction(someStructInstance)
+print(someStructInstance.someProperty)
+
 
 
